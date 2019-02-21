@@ -2,7 +2,7 @@ require "pry"
 
 class School
   
-  def initialize(name, roster)
+  def initialize(name, roster = {})
     @name = name
   end 
   
